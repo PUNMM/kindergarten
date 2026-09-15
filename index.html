@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-<title>末日幼儿园</title>
+<title>末日带娃100天</title>
 <style>
 /* ============ 冷灰绿+米黄暖调主题 ============ */
 :root{
@@ -24,6 +24,7 @@ body{background:var(--bg);color:var(--ink);min-height:100vh;max-width:480px;marg
 @media (max-width:360px){
   body{padding-left:8px;padding-right:8px}
   .topbar .title{font-size:16px;letter-spacing:2px}
+  #intro h1{font-size:26px;letter-spacing:4px}
   .subbar .day{min-width:70px;font-size:12px}
   .actions{gap:6px}
   .actions button{font-size:13px;padding:12px 2px;min-height:58px}
@@ -519,7 +520,7 @@ body.raid #popup{animation:raidShake .55s ease-in-out}
 <!-- ============ 开场：性别选择 ============ -->
 <section id="intro" class="view active">
   <div class="hero">
-    <h1>末日幼儿园</h1>
+    <h1>末日带娃100天</h1>
     <p class="sub">世界末日那天，你和三个孩子留在教室里……</p>
   </div>
   <div class="story"><span class="ln">窗外是重重人影，城市充满了诡异的嘶吼声。</span><span class="ln">午睡室里，小安、小乐和小念还在睡着。</span><span class="ln">你是这间幼儿园里唯一的大人。</span><span class="ln">食物只够吃几天，大门紧闭着。</span><span class="ln">从今天起，你要带他们活下去。</span></div>
@@ -534,7 +535,7 @@ body.raid #popup{animation:raidShake .55s ease-in-out}
 <!-- ============ 主页 ============ -->
 <section id="home" class="view">
   <div class="topbar">
-    <div class="title">末日幼儿园</div>
+    <div class="title">末日带娃100天</div>
   </div>
   <div class="subbar">
     <div class="setting" id="btn-setting" title="设置 / 存档">⚙️<small>设置</small></div>
@@ -596,7 +597,7 @@ body.raid #popup{animation:raidShake .55s ease-in-out}
 
 <script>
 /* ================================================================
- * 末日幼儿园 · 第一阶段（框架+主页+三时段循环）
+ * 末日带娃100天 · 第一阶段（框架+主页+三时段循环）
  * 结构：状态管理 -> 存档 -> 渲染 -> 行动(外出/照顾/加固) -> 夜晚结算
  * 备注：外出暂为简版搜刮事件，第二阶段替换为7地点挑战小游戏
  * ================================================================ */
